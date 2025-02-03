@@ -1,5 +1,0 @@
-# Ignorar node_modules en BACKEND
-BACKEND/node_modules
-
-# Ignorar archivos de configuración sensibles en mern-app
-BACKEND/mern-app/.env
