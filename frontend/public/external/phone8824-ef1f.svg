@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<g clip-path='url(#clip0_88_244)' filter='url(#filter0_d_88_244)'>
+<path d='M18.6667 11.28V13.28C18.6675 13.4657 18.6294 13.6494 18.555 13.8195C18.4807 13.9897 18.3716 14.1424 18.2348 14.2679C18.0979 14.3934 17.9364 14.489 17.7605 14.5485C17.5847 14.6079 17.3983 14.63 17.2134 14.6133C15.1619 14.3904 13.1914 13.6894 11.46 12.5667C9.84926 11.5431 8.48359 10.1774 7.46004 8.56665C6.33336 6.82745 5.6322 4.84731 5.41337 2.78665C5.39671 2.60229 5.41862 2.41649 5.4777 2.24107C5.53679 2.06564 5.63175 1.90444 5.75655 1.76773C5.88134 1.63102 6.03324 1.52179 6.20256 1.447C6.37189 1.37221 6.55493 1.33349 6.74004 1.33332H8.74004C9.06357 1.33013 9.37723 1.4447 9.62254 1.65567C9.86786 1.86664 10.0281 2.15961 10.0734 2.47998C10.1578 3.12003 10.3143 3.74847 10.54 4.35332C10.6297 4.59193 10.6491 4.85126 10.596 5.10057C10.5428 5.34988 10.4193 5.57872 10.24 5.75998L9.39337 6.60665C10.3424 8.27568 11.7243 9.65761 13.3934 10.6066L14.24 9.75998C14.4213 9.58074 14.6501 9.45722 14.8994 9.40405C15.1488 9.35088 15.4081 9.37029 15.6467 9.45998C16.2516 9.68568 16.88 9.84224 17.52 9.92665C17.8439 9.97234 18.1396 10.1355 18.3511 10.385C18.5625 10.6345 18.6748 10.953 18.6667 11.28Z' stroke='#F5F5F5' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/>
+</g>
+<defs>
+<filter id='filter0_d_88_244' x='0' y='0' width='24' height='24' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+<feFlood flood-opacity='0' result='BackgroundImageFix'/>
+<feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/>
+<feOffset dy='4'/>
+<feGaussianBlur stdDeviation='2'/>
+<feComposite in2='hardAlpha' operator='out'/>
+<feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'/>
+<feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_88_244'/>
+<feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_88_244' result='shape'/>
+</filter>
+<clipPath id='clip0_88_244'>
+<rect width='16' height='16' fill='white' transform='translate(4)'/>
+</clipPath>
+</defs>
+</svg>
