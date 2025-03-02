@@ -1,0 +1,701 @@
+
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+  width: 114vw; /* Asegura que no se extienda más del ancho de la pantalla */
+}
+.desktop8-desktop8 {
+  width: 107%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(42, 47, 61, 1);
+  transform: scale(0.89); /* Ajusta el zoom (reduce el tamaño para que se vea completo) */
+  margin-left: -6%; /* Recorta el lado izquierdo */
+  max-width: 114vw; /* Evita que el contenedor sobrepase el ancho de la pantalla */
+
+
+
+
+
+
+
+
+
+}
+ 
+.desktop8-rectangle34 {
+  top: 31px;
+  left: 273px;
+  width: 927px;
+  height: 955px;
+  opacity: 0.85;
+  position: absolute;
+}
+ 
+.desktop8-text10 {
+  top: 121px;
+  left: 489px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-text11 {
+  top: 165px;
+  left: 407px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-text12 {
+  top: 263px;
+  left: 193px;
+  color: rgba(0, 0, 0, 1);
+  width: 1120px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-text13 {
+  top: 31px;
+  left: 331px;
+  color: rgba(0, 0, 0, 1);
+  width: 779px;
+  height: auto;
+  position: absolute;
+  font-size: 65px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gidugu;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button10 {
+  gap: 8px;
+  top: 401px;
+  left: 413px;
+  width: 148px;
+  height: 63px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text14 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-text15 {
+  font-size: 20px;
+}
+ 
+.desktop8-text18 {
+  font-size: 20px;
+}
+ 
+.desktop8-button11 {
+  gap: 8px;
+  top: 319px;
+  left: 413px;
+  width: 145px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text19 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button12 {
+  gap: 8px;
+  top: 401px;
+  left: 633px;
+  width: 135px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text23 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-gtranslate {
+  top: 19px;
+  left: 1367px;
+  width: 48px;
+  height: 44px;
+  position: absolute;
+}
+ 
+.desktop8-text27 {
+  top: 492px;
+  left: 413px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-text28 {
+  top: 550px;
+  left: 400px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button13 {
+  gap: 8px;
+  top: 693px;
+  left: 418px;
+  width: 143px;
+  height: 65px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text29 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button14 {
+  gap: 8px;
+  top: 693px;
+  left: 592px;
+  width: 136px;
+  height: 65px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text30 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button15 {
+  gap: 8px;
+  top: 611px;
+  left: 418px;
+  width: 138px;
+  height: 69px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text31 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button16 {
+  gap: 8px;
+  top: 694px;
+  left: 966px;
+  width: 94px;
+  height: 58px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text32 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-pluscircle1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop8-button17 {
+  gap: 8px;
+  top: 403px;
+  left: 825px;
+  width: 136px;
+  height: 58px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text33 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-pluscircle2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop8-group9 {
+  top: 45px;
+  left: 23px;
+  width: 169.06976318359375px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop8-rectangle18 {
+  top: 0.27978515625px;
+  left: 0px;
+  width: 169px;
+  height: 43px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop8-text34 {
+  left: 4px;
+  color: rgba(255, 255, 255, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button18 {
+  gap: 8px;
+  top: 869px;
+  left: 1022px;
+  width: 152px;
+  height: 85px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8999999761581421);
+}
+ 
+
+
+
+
+
+
+.desktop8-text35 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button19 {
+  gap: 8px;
+  top: 315px;
+  left: 816px;
+  width: 136px;
+  height: 67px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text36 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button20 {
+  gap: 8px;
+  top: 316px;
+  left: 621px;
+  width: 154px;
+  height: 66px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text40 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button21 {
+  gap: 8px;
+  top: 696px;
+  left: 773px;
+  width: 147px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text44 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button22 {
+  gap: 8px;
+  top: 614px;
+  left: 617px;
+  width: 136px;
+  height: 58px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text45 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button23 {
+  gap: 8px;
+  top: 612px;
+  left: 814px;
+  width: 142px;
+  height: 66px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(42, 47, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop8-text46 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop8-button24 {
+  top :825px;
+  gap: 8px;
+  left:  calc(200px  + 60px);
+  width: 129px;
+  bottom: 75px;
+  height: 75px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8999999761581421);
+}
+ 
+.desktop8-text47 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}

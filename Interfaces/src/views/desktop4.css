@@ -1,0 +1,228 @@
+.desktop4-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+}
+
+.desktop4-desktop4 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(0.89); /* Ajusta el zoom (reduce el tamaño para que se vea completo) */
+  margin-left: -0.1%; /* Recorta el lado izquierdo */
+}
+ 
+.desktop4-image {
+  top: -208px;
+  left: 0px;
+  width: 1440px;
+  height: 1440px;
+  position: absolute;
+}
+ 
+.desktop4-rectangle22 {
+  top: 0px;
+  left: 287px;
+  width: 926px;
+  height: 1024px;
+  opacity: 0.85;
+  position: absolute;
+}
+ 
+.desktop4-group1 {
+  top: 19px;
+  left: 574px;
+  width: 377px;
+  height: 87px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop4-rectangle18 {
+  top: 12.428571701049805px;
+  left: 0px;
+  width: 377px;
+  height: 66px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop4-text1 {
+  top: 17px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-text2 {
+  top: 240.2039031982422px;
+  left: 417px;
+  color: rgba(248, 248, 248, 1);
+  width: 534px;
+  height: auto;
+  position: absolute;
+  font-size: 39.77653884887695px;
+  font-style: Black;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-rectangle25 {
+  top: 464px;
+  left: 419px;
+  width: 661px;
+  height: 95px;
+  position: absolute;
+  border-radius: 6px;
+}
+ 
+.desktop4-button {
+  gap: 68px;
+  top: 673px;
+  left: 564px;
+  width: 397px;
+  height: 64px;
+  display: flex;
+  padding: 48px 16px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(249, 255, 252, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop4-text3 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-rectangle24 {
+  top: 336px;
+  left: 419px;
+  width: 661px;
+  height: 95px;
+  position: absolute;
+}
+ 
+.desktop4-rectangle26 {
+  top: 336px;
+  left: 417px;
+  width: 661px;
+  height: 95px;
+  position: absolute;
+  border-radius: 6px;
+}
+ 
+.desktop4-text4 {
+  top: 368px;
+  left: 429px;
+  color: rgba(0, 0, 0, 1);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Black;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-text5 {
+  top: 496px;
+  left: 425px;
+  color: rgba(21, 20, 20, 1);
+  width: 386px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Black;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-text6 {
+  top: 851px;
+  left: 636px;
+  color: rgba(255, 255, 255, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Black;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop4-text7 {
+  top: 797px;
+  left: 577px;
+  color: rgba(255, 255, 255, 1);
+  width: 381px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Black;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}

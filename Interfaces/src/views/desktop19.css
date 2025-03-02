@@ -1,0 +1,503 @@
+.desktop19-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+    width: 100 w; /* Asegura que no se extienda más del ancho de la pantalla */
+  }
+  .desktop19-frame4 {
+    width: 130%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(42, 47, 61, 1);
+    transform: scale(0.90); /* Ajusta el zoom (reduce el tamaño para que se vea completo) */
+    margin-left: -2%; /* Recorta el lado izquierdo */
+    max-width: 114vw; /* Evita que el contenedor sobrepase el ancho de la pantalla */
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.desktop19-text10 {
+  top: 25px;
+  left: 35px;
+  color: rgba(255, 255, 255, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-button1 {
+  gap: 8px;
+  top: 36px;
+  left: 434px;
+  width: 214px;
+  height: 44px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(6, 6, 6, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop19-mobilefriendly {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop19-text11 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-button2 {
+  gap: 8px;
+  top: 36px;
+  left: 725px;
+  width: 227px;
+  height: 49px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop19-settings {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop19-text12 {
+  color: rgba(253, 232, 231, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-button3 {
+  gap: 8px;
+  top: 40px;
+  left: 1063px;
+  width: 52px;
+  height: 47px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 103, 50, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 0);
+}
+ 
+.desktop19-bell {
+  width: 28px;
+  height: 23px;
+  flex-grow: 1;
+  align-self: stretch;
+}
+ 
+.desktop19-button4 {
+  gap: 8px;
+  top: 40px;
+  left: 1159px;
+  width: 52px;
+  height: 47px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 103, 50, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 0);
+}
+ 
+.desktop19-messagesquare {
+  width: 28px;
+  height: 23px;
+  flex-grow: 1;
+  align-self: stretch;
+}
+ 
+.desktop19-button5 {
+  gap: 8px;
+  top: 40px;
+  left: 1267px;
+  width: 52px;
+  height: 47px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 103, 50, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 0);
+}
+ 
+.desktop19-user {
+  width: 28px;
+  height: 23px;
+  flex-grow: 1;
+  align-self: stretch;
+}
+ 
+.desktop19-icon {
+  top: 40px;
+  left: 1396px;
+  width: 52px;
+  height: 47px;
+  position: absolute;
+}
+ 
+.desktop19-frame5 {
+  top: 118px;
+  left: 0px;
+  width: 1735px;
+  height: 975px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: rgba(33, 43, 56, 1);
+}
+ 
+.desktop19-text13 {
+  top: 387px;
+  left: 86px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-edit1 {
+  top: 364px;
+  left: 1319px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+ 
+.desktop19-edit2 {
+  top: 551px;
+  left: 1323px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+ 
+.desktop19-button6 {
+  gap: 8px;
+  top: 720px;
+  left: 1265px;
+  width: 125px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  border-color: rgba(44, 44, 44, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop19-text14 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-text15 {
+  top: 678px;
+  left: 91px;
+  color: rgba(255, 255, 255, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-rectangle53 {
+  top: 540px;
+  left: 91px;
+  width: 1274px;
+  height: 84px;
+  position: absolute;
+}
+ 
+.desktop19-rectangle54 {
+  top: 721px;
+  left: 91px;
+  width: 1274px;
+  height: 67px;
+  position: absolute;
+}
+ 
+.desktop19-rectangle52 {
+  top: 204px;
+  left: 990px;
+  width: 317px;
+  height: 165px;
+  position: absolute;
+}
+ 
+.desktop19-rectangle51 {
+  top: 204px;
+  left: 517px;
+  width: 353px;
+  height: 165px;
+  position: absolute;
+}
+ 
+.desktop19-rectangle55 {
+  top: 205.9999542236328px;
+  left: 91px;
+  width: 602px;
+  height: 165px;
+  position: absolute;
+}
+ 
+.desktop19-text16 {
+  top: 336px;
+  left: 151px;
+  color: rgba(255, 255, 255, 1);
+  width: 251px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-fileplus1 {
+  top: 224px;
+  left: 193px;
+  width: 121px;
+  height: 91px;
+  position: absolute;
+}
+ 
+.desktop19-text17 {
+  top: 143px;
+  left: 97px;
+  color: rgba(255, 255, 255, 1);
+  width: 313px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-fileplus2 {
+  top: 224px;
+  left: 641px;
+  width: 121px;
+  height: 91px;
+  position: absolute;
+}
+ 
+.desktop19-text18 {
+  top: 334px;
+  left: 568px;
+  color: rgba(255, 255, 255, 1);
+  width: 251px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop19-fileplus3 {
+  top: 227px;
+  left: 1088px;
+  width: 120px;
+  height: 91px;
+  position: absolute;
+}
+ 
+.desktop19-text19 {
+  top: 334px;
+  left: 1036px;
+  color: rgba(255, 255, 255, 1);
+  width: 252px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+  .desktop19-frame4,
+  .desktop19-frame5 {
+    width: 95%;
+    padding: 15px;
+  }
+  .desktop19-button1,
+  .desktop19-button2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop19-frame4,
+  .desktop19-frame5 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .desktop19-button1,
+  .desktop19-button2,
+  .desktop19-button3,
+  .desktop19-button4,
+  .desktop19-button5 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktop19-text10,
+  .desktop19-text11,
+  .desktop19-text12 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .desktop19-button1,
+  .desktop19-button2 {
+    font-size: 16px;
+  }
+}

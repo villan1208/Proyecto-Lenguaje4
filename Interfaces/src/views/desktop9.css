@@ -1,0 +1,438 @@
+.desktop9-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop9-desktop9 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(33, 43, 56, 1);
+}
+ 
+.desktop9-rectangle33 {
+  top: 391px;
+  left: 352px;
+  width: 830px;
+  height: 593px;
+  opacity: 0.85;
+  position: absolute;
+  border-radius: 40px;
+}
+ 
+.desktop9-rectangle34 {
+  top: 104px;
+  left: 352px;
+  width: 830px;
+  height: 250px;
+  opacity: 0.85;
+  position: absolute;
+}
+ 
+.desktop9-text10 {
+  top: 407px;
+  left: 524px;
+  color: rgba(0, 0, 0, 1);
+  width: 445px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-card {
+  gap: 24px;
+  top: 566px;
+  left: 525px;
+  width: 488px;
+  height: 122px;
+  display: flex;
+  padding: 24px;
+  position: absolute;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.desktop9-body {
+  gap: 16px;
+  top: 581px;
+  left: 532px;
+  width: 394px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.desktop9-text11 {
+  gap: 8px;
+  width: 366px;
+  height: 96px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop9-text12 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 17px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-button1 {
+  gap: 8px;
+  top: 858px;
+  left: 383px;
+  width: 143px;
+  height: 85px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.desktop9-text14 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-button2 {
+  gap: 8px;
+  top: 858px;
+  left: 1013px;
+  width: 135px;
+  height: 85px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.desktop9-text15 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-text16 {
+  top: 17px;
+  left: 383px;
+  color: rgba(253, 253, 253, 1);
+  width: 747px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-text17 {
+  top: 99px;
+  left: 512px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 64px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-text18 {
+  top: 296px;
+  left: 491px;
+  color: rgba(0, 0, 0, 1);
+  width: 202px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-frame3d-avatars9 {
+  top: 166px;
+  left: 532px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop9-avatars3davatar8 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+ 
+.desktop9-input-field {
+  gap: 8px;
+  top: 470px;
+  left: 526px;
+  width: 487px;
+  height: 96px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop9-text19 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 25px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-input {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  padding: 12px 16px;
+  overflow: hidden;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-weight: 400;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.desktop9-select-field {
+  gap: 8px;
+  top: 721px;
+  left: 524px;
+  width: 489px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.desktop9-text20 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 25px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-select {
+  gap: 8px;
+  display: flex;
+  padding: 12px 12px 12px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.desktop9-text21 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 100%;
+}
+ 
+.desktop9-chevrondown {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop9-tab {
+  top: 198px;
+  left: 753px;
+  width: 241px;
+  height: 45px;
+  display: flex;
+  padding: 4px 12px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(177, 177, 177, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-radius: 4px 4px 0 0;
+  justify-content: center;
+}
+ 
+.desktop9-text22 {
+  color: #e6d0d0;
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-group1 {
+  top: 28px;
+  left: 55px;
+  width: 192px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop9-rectangle18 {
+  top: 9px;
+  left: 0px;
+  width: 192px;
+  height: 48px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop9-text23 {
+  top: 5px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop9-gtranslate {
+  top: 8px;
+  right: 17px;
+  width: 48px;
+  height: 44px;
+  position: absolute;
+}

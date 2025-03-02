@@ -1,0 +1,434 @@
+.desktop6-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+  width: 114vw; /* Asegura que no se extienda más del ancho de la pantalla */
+}
+.desktop6-desktop6 {
+  width: 107%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(42, 47, 61, 1);
+  transform: scale(0.89); /* Ajusta el zoom (reduce el tamaño para que se vea completo) */
+  margin-left: -12%; /* Recorta el lado izquierdo */
+  max-width: 114vw; /* Evita que el contenedor sobrepase el ancho de la pantalla */
+}
+ 
+
+
+
+
+
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+}
+
+.desktop6-button1 {
+  gap: 8px;
+  top: 557px;
+  left: 397px;
+  width: 269px;
+  height: 205px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(55, 70, 91, 1);
+}
+ 
+.desktop6-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-button2 {
+  gap: 8px;
+  top: 557px;
+  left: 760px;
+  width: 259px;
+  height: 214px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(55, 70, 91, 1);
+}
+ 
+.desktop6-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-button3 {
+  gap: 8px;
+  top: 281px;
+  left: 752px;
+  width: 276px;
+  height: 205px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.20000000298023224);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(55, 70, 91, 1);
+}
+ 
+.desktop6-text18 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-button4 {
+  gap: 8px;
+  top: 281px;
+  left: 397px;
+  width: 282px;
+  height: 212px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(55, 70, 91, 1);
+}
+ 
+.desktop6-text22 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-text26 {
+  top: 184px;
+  left: 367px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 64px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-gtranslate {
+  top: 15px;
+  left: 1378px;
+  width: 48px;
+  height: 44px;
+  position: absolute;
+}
+ 
+.desktop6-button5 {
+  gap: 8px;
+  top: 826px;
+  left: 1139px;
+  width: 135px;
+  height: 85px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 103, 50, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop6-text27 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-button6 {
+  gap: 8px;
+  top: 826px;
+  left: 148px;
+  width: 143px;
+  height: 85px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 1);
+}
+ 
+.desktop6-text28 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-group1 {
+  top: 23px;
+  left: 57px;
+  width: 192px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+ 
+.desktop6-rectangle18 {
+  top: 9px;
+  left: 0px;
+  width: 192px;
+  height: 48px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop6-text29 {
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-text30 {
+  top: 88px;
+  left: 219px;
+  color: rgba(255, 103, 50, 1);
+  height: auto;
+  position: absolute;
+  font-size: 96px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gidugu;
+  font-weight: 400;
+  line-height: 100px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop6-rectangle27 {
+  top: 964px;
+  left: 1440px;
+  width: 1440px;
+  height: 65px;
+  opacity: 0.85;
+  position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .desktop6-desktop6 {
+    transform: none;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrar contenido */
+    min-height: 100vh; /* Asegurar que todo se muestre */
+    overflow: auto; /* Permitir scroll solo si es necesario */
+  }
+
+  .desktop6-text26,
+  .desktop6-text30 {
+    font-size: 32px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px; /* Espaciado */
+  }
+
+  /* 🔹 Botones mejorados */
+  .desktop6-button1,
+  .desktop6-button2,
+  .desktop6-button3,
+  .desktop6-button4 {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; /* Evita que los botones ocupen mucho espacio */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 5px;
+  }
+
+  .desktop6-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop6-text26,
+  .desktop6-text30 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  /* 🔹 Asegurar que los botones caben sin hacer scroll */
+  .desktop6-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .desktop6-button1,
+  .desktop6-button2,
+  .desktop6-button3,
+  .desktop6-button4 {
+    width: 45%;
+    max-width: 250px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktop6-text26 {
+    font-size: 20px;
+  }
+
+  .desktop6-text30 {
+    font-size: 28px;
+  }
+
+  /* 🔹 Botones en fila única en pantallas pequeñas */
+  .desktop6-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .desktop6-button1,
+  .desktop6-button2,
+  .desktop6-button3,
+  .desktop6-button4 {
+    width: 100%;
+    max-width: none;
+    padding: 6px;
+  }
+}

@@ -1,0 +1,108 @@
+.desktop12-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop12-desktop12 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: url("/external/tq_ecdaexeb8y-8pq8b-1100h.png");
+}
+ 
+.desktop12-rectangle33 {
+  top: 191px;
+  left: 359px;
+  width: 796px;
+  height: 669px;
+  opacity: 0.85;
+  position: absolute;
+  border-radius: 40px;
+}
+ 
+.desktop12-button {
+  gap: 8px;
+  top: 688px;
+  left: 659px;
+  width: 182px;
+  height: 76px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 103, 50, 0.8999999761581421);
+}
+ 
+.desktop12-text1 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop12-text2 {
+  top: 352px;
+  left: 392px;
+  color: rgba(255, 255, 255, 1);
+  width: 716px;
+  height: auto;
+  position: absolute;
+  font-size: 70px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 60px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop12-text3 {
+  top: 507px;
+  left: 417px;
+  color: rgba(255, 255, 255, 1);
+  width: 654px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop12-gtranslate {
+  top: 35px;
+  right: 27px;
+  width: 48px;
+  height: 44px;
+  position: absolute;
+}

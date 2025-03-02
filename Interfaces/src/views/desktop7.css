@@ -1,0 +1,748 @@
+.desktop7-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Elimina la barra de desplazamiento horizontal */
+  width: 114vw; /* Asegura que no se extienda más del ancho de la pantalla */
+}
+.desktop7-desktop7 {
+  width: 107%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(42, 47, 61, 1);
+  transform: scale(0.89); /* Ajusta el zoom (reduce el tamaño para que se vea completo) */
+  margin-left: -12%; /* Recorta el lado izquierdo */
+  max-width: 114vw; /* Evita que el contenedor sobrepase el ancho de la pantalla */
+
+
+
+
+
+
+
+}
+
+
+
+
+
+ 
+.desktop7-gtranslate1 {
+  top: 710px;
+  left: 1359px;
+  width: 49px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop7-rectangle43 {
+  top: 54px;
+  left: 285px;
+  width: 988px;
+  height: 949px;
+  opacity: 0.85;
+  position: absolute;
+}
+ 
+.desktop7-button10 {
+  gap: 8px;
+  left: 330px;
+  width: 129px;
+  bottom: 41px;
+  height: 75px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8999999761581421);
+}
+ 
+.desktop7-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-text11 {
+  top: 53px;
+  left: 370px;
+  color: rgba(0, 0, 0, 1);
+  width: 779px;
+  height: auto;
+  position: absolute;
+  font-size: 65px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gidugu;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button11 {
+  gap: 8px;
+  top: 314px;
+  left: 839px;
+  width: 202px;
+  height: 66px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text12 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button12 {
+  gap: 8px;
+  top: 413px;
+  left: 416px;
+  width: 165px;
+  height: 69px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button13 {
+  gap: 8px;
+  top: 315px;
+  left: 633px;
+  width: 151px;
+  height: 63px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button14 {
+  gap: 8px;
+  top: 415px;
+  left: 799px;
+  width: 144px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text15 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button15 {
+  gap: 8px;
+  top: 415px;
+  left: 617px;
+  width: 154px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text16 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button16 {
+  gap: 8px;
+  top: 315px;
+  left: 415px;
+  width: 175px;
+  height: 64px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(68, 15, 14, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text17 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-group8 {
+  top: 63px;
+  left: 35px;
+  width: 169.06976318359375px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop7-rectangle18 {
+  top: 0.27978515625px;
+  left: 0px;
+  width: 169px;
+  height: 43px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.desktop7-text18 {
+  left: 4px;
+  color: rgba(255, 255, 255, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-gtranslate2 {
+  top: 19px;
+  left: 1360px;
+  width: 48px;
+  height: 44px;
+  position: absolute;
+}
+ 
+.desktop7-button17 {
+  gap: 8px;
+  left: 1083px;
+  width: 145px;
+  bottom: 45px;
+  height: 76px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8999999761581421);
+}
+ 
+.desktop7-text19 {
+  color: rgba(245, 245, 245, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-text20 {
+  top: 561px;
+  left: 377px;
+  color: rgba(0, 0, 0, 1);
+  width: 553px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button18 {
+  gap: 8px;
+  top: 646px;
+  left: 830px;
+  width: 136px;
+  height: 66px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text21 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button19 {
+  gap: 8px;
+  top: 749px;
+  left: 420px;
+  width: 162px;
+  height: 69px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text22 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button20 {
+  gap: 8px;
+  top: 744px;
+  left: 633px;
+  width: 151px;
+  height: 78px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text23 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button21 {
+  gap: 8px;
+  top: 642px;
+  left: 1028px;
+  width: 135px;
+  height: 63px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text24 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button22 {
+  gap: 8px;
+  top: 641px;
+  left: 620px;
+  width: 162px;
+  height: 69px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text25 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button23 {
+  gap: 8px;
+  top: 749px;
+  left: 1055px;
+  width: 93px;
+  height: 58px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text26 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-pluscircle1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop7-button24 {
+  gap: 8px;
+  top: 412px;
+  left: 988px;
+  width: 99px;
+  height: 62px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text27 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-pluscircle2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.desktop7-text28 {
+  top: 119px;
+  left: 526px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-text29 {
+  top: 188px;
+  left: 420px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-text30 {
+  top: 237px;
+  left: 174px;
+  color: rgba(0, 0, 0, 1);
+  width: 1120px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-text31 {
+  top: 512px;
+  left: 418px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button25 {
+  gap: 8px;
+  top: 638px;
+  left: 422px;
+  width: 160px;
+  height: 74px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text32 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jockey One;
+  font-weight: 400;
+  line-height: 70px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop7-button26 {
+  gap: 8px;
+  top: 749px;
+  left: 837px;
+  width: 136px;
+  height: 60px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(42, 47, 61, 1);
+}
+ 
+.desktop7-text33 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Jockey One";
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
