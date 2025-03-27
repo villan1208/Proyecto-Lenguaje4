@@ -1,0 +1,355 @@
+/* ✅ Reset para evitar márgenes y padding no deseados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ✅ Forzar scroll vertical */
+html, body, #root {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1a2a6c, #2e3192, #0a83ff);
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* ✅ Contenedor General */
+.section-habilidades {
+  background: linear-gradient(135deg, #475072, #2e3192, #134a81);
+  padding: 16px; /* 🔥 Reducir padding para igualar con otras secciones */
+  border-radius: 8px; /* 🔥 Igualar el borde con otras secciones */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+  margin: 12px; /* 🔥 Ajustar margen para que coincida con las demás secciones */
+  font-family: 'Arial', sans-serif;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ✅ Efecto Hover */
+.section-habilidades:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ✅ Encabezado */
+.section-habilidades-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ff9800;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.section-habilidades-header h2 {
+  font-size: 20px; /* 🔥 Reducir tamaño de fuente para igualar */
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* ✅ Botón */
+.section-habilidades-btn {
+  background-color: #ff9800;
+  color: #ffffff;
+  padding: 6px 12px; /* 🔥 Hacer el botón más compacto */
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-habilidades-btn:hover {
+  background-color: #e68900;
+}
+
+/* ✅ Tarjetas de Habilidades */
+.habilidad-item {
+  background: linear-gradient(135deg, #475072, #2e3192, #134a81);
+  padding: 12px; /* 🔥 Reducir padding interno */
+  border-radius: 6px; /* 🔥 Igualar el borde con otras secciones */
+  margin-bottom: 8px; /* 🔥 Reducir el espacio entre elementos */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.habilidad-item:hover {
+  background-color: #313646;
+}
+
+/* ✅ Información de Habilidades */
+.habilidad-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.habilidad-nombre {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.habilidad-categoria {
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+
+/* ✅ Estrellas */
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars svg {
+  font-size: 20px;
+  color: #ffcc00;
+  margin-right: 2px;
+  transition: transform 0.2s ease;
+}
+
+.stars svg:hover {
+  transform: scale(1.2);
+}
+
+/* ✅ Barra de progreso (azul eléctrico) */
+.progress-bar {
+  width: 100%;
+  height: 6px; /* 🔥 Reducir altura para que sea más proporcional */
+  background-color: #444;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #1e90ff;
+  transition: width 0.3s ease;
+}
+
+/* ✅ Borde superior e inferior como en la sección de Proyectos */
+.section-habilidades::before,
+.section-habilidades::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ff9800;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+/* ✅ Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  .section-habilidades {
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+  }
+
+  .section-habilidades-header h2 {
+    font-size: 18px; /* 🔥 Reducir tamaño de fuente en móvil */
+  }
+
+  .section-habilidades-btn {
+    font-size: 10px; /* 🔥 Hacer el botón más compacto */
+    padding: 4px 10px;
+  }
+
+  .habilidad-item {
+    padding: 10px;
+    margin-bottom: 6px; /* 🔥 Reducir el espacio entre tarjetas */
+  }
+
+  .habilidad-nombre {
+    font-size: 0.85rem;
+  }
+
+  .progress-bar {
+    height: 5px; /* 🔥 Ajustar altura para dispositivos móviles */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
