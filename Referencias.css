@@ -1,0 +1,231 @@
+/* Referencias.css */
+
+/* ✅ Fondo de la página con más contraste */
+.references-page {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, hwb(228 10% 58%), #2e3192, #0a83ff); /* Fondo degradado en tonos de azul */
+    color: #fff; /* Texto blanco para mejorar contraste */
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* ✅ Menú para ordenar referencias */
+  .reference-sorting {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .reference-sorting select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reference-sorting select:hover {
+    border-color: #ff8c00;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
+  }
+  
+  /* ✅ Títulos de sección más grandes y en negrita */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #fff; /* Blanco para los títulos */
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  
+  /* ✅ Tarjetas de referencias con efecto de elevación y sombras suaves */
+  .reference-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .reference-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ✅ Animación de entrada para las tarjetas */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .reference-card {
+    animation: fadeIn 0.4s ease forwards;
+  }
+  
+  /* ✅ Botones anaranjados con efecto dinámico */
+  .reference-card button,
+  .reference-form button {
+    background-color: #ff8c00;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 10px;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
+  }
+  
+  .reference-card button:hover,
+  .reference-form button:hover {
+    background-color: #ff6500;
+    transform: scale(1.05); /* Ligeramente más grande al pasar el cursor */
+    box-shadow: 0 6px 16px rgba(255, 140, 0, 0.4);
+  }
+  
+  /* ✅ Estilo para formulario */
+  .reference-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .reference-form:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ✅ Campos del formulario con borde y efecto al enfocarse */
+  .reference-form input,
+  .reference-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px; /* Aumenta el espacio entre campos */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f2f2f8; /* Fondo gris claro para inputs y textarea */
+    color: #333; /* Texto oscuro en los campos */
+  }
+  
+  .reference-form input:focus,
+  .reference-form textarea:focus {
+    border-color: #ff8c00;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.2);
+    outline: none;
+  }
+  
+  /* ✅ Estilo para el título de la referencia */
+  .reference-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 8px;
+  }
+  
+  /* ✅ Estilo para la descripción de la referencia */
+  .reference-card p {
+    font-size: 16px;
+    color: #020101;
+    margin-bottom: 8px;
+  }
+  
+  /* ✅ Estilo para el texto de tecnologías y fecha */
+  .reference-card strong {
+    color: #222;
+  }
+  
+  /* ✅ Contenedor de botones alineado */
+  .reference-card .reference-actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* ✅ Estilo para el fondo del formulario */
+  .reference-form {
+    background: #f9f3f3;
+    border: 2px solid #ff8c00; /* Borde naranja */
+  }
+  
+  /* ✅ Espaciado entre cada sección del formulario */
+  .reference-form > *:not(:last-child) {
+    margin-bottom: 24px; /* Aumenta el espacio entre secciones del formulario */
+  }
+  
+  /* ✅ Campos del formulario con borde y efecto al enfocarse */
+  .reference-form input,
+  .reference-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px; /* Aumenta el espacio entre campos */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    color: #333; /* Texto oscuro en los campos */
+    background-color: #f2f2f8; /* Fondo gris claro para inputs y textarea */
+  }
+  
+  .reference-form input:focus,
+  .reference-form textarea:focus {
+    border-color: #ff8c00;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.2);
+    outline: none;
+  }
+/* Animación para que el texto de bienvenida aparezca con efecto */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilo solo para el texto de bienvenida */
+.references-page h1 {
+  font-size: 40px; /* Aumentamos el tamaño del texto */
+  font-weight: bold;
+  text-align: center; /* Centra el texto */
+  color: #fff; /* Asegura que el texto sea blanco */
+  animation: fadeIn 1s ease-out; /* Aplica la animación */
+  margin-top: 20px; /* Añadimos margen superior para bajar un poco el texto */
+  margin-bottom: 40px; /* Espacio debajo del título */
+  
+  /* Sombra sutil para hacer que el texto resalte */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+
+  /* Efecto de color dinámico para hacerlo más atractivo */
+  transition: all 0.3s ease;
+}
+
+/* Cambiar el color al pasar el ratón */
+.references-page h1:hover {
+  color: #ff8c00; /* Color naranja */
+  text-shadow: 2px 2px 20px rgba(255, 140, 0, 0.8); /* Sombra más fuerte al pasar el ratón */
+}
+
