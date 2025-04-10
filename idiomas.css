@@ -1,0 +1,81 @@
+.idiomas-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.idiomas-item {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.5s ease;
+}
+
+.idiomas-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.idiomas-nombre {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1cd8d2;
+  margin: 0 0 0.25rem;
+}
+
+.idiomas-nivel {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.idiomas-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.idiomas-edit,
+.idiomas-delete {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.idiomas-edit {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.idiomas-delete {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.idiomas-edit:hover,
+.idiomas-delete:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

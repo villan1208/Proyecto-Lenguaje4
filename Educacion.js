@@ -1,41 +1,99 @@
 // src/pages/views/Educacion.js
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import FormEducacion from '../../components/FormEducacion';
-import { useForm } from 'react-hook-form'; // Si estás usando este hook en algún momento en el archivo
-import { useRef } from 'react'; // Si tienes algún uso de useRef
+import React, { useEffect, useState } from "react";
+import { getAuth } from "firebase/auth";
+import {
+  getEducation,
+  addEducation,
+  updateEducation,
+  deleteEducation
+} from "../../api/educationApi";
+import EducationForm from "../../components/EducationForm";
+import "../../styles/educacion.css";
 
 const Educacion = () => {
-  const navigate = useNavigate();
-  const userId = 'ID_DEL_USUARIO'; // Este valor debe venir de algún estado global o contexto
+  const [userId, setUserId] = useState(null);
+  const [educationList, setEducationList] = useState([]);
+  const [formData, setFormData] = useState({
+    institution: "",
+    degree: "",
+    startDate: "",
+    endDate: "",
+    description: ""
+  });
+  const [isEditing, setIsEditing] = useState(false);
+  const [currentId, setCurrentId] = useState(null);
+
+  useEffect(() => {
+    const user = getAuth().currentUser;
+    if (user) {
+      setUserId(user.uid);
+      loadEducation(user.uid);
+    }
+  }, []);
+
+  const loadEducation = async (uid) => {
+    const data = await getEducation(uid);
+    setEducationList(data);
+  };
+
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (isEditing) {
+      const updated = await updateEducation(userId, currentId, formData);
+      setEducationList(updated);
+    } else {
+      const added = await addEducation(userId, formData);
+      setEducationList(added);
+    }
+    setIsEditing(false);
+    setFormData({ institution: "", degree: "", startDate: "", endDate: "", description: "" });
+  };
+
+  const handleEdit = (edu) => {
+    setFormData(edu);
+    setCurrentId(edu._id);
+    setIsEditing(true);
+  };
+
+  const handleDelete = async (id) => {
+    const updated = await deleteEducation(userId, id);
+    setEducationList(updated);
+  };
 
   return (
-    <div style={styles.container}>
-      <h2>Editar Educación</h2>
-      <h1>Mi Educación</h1>
-      {/* Aquí llamamos al componente FormEducacion pasándole el userId */}
-      <FormEducacion userId={userId} />
-      <button onClick={() => navigate("/home")} style={styles.button}>
-        Regresar
-      </button>
+    <div className="educacion-container">
+      <h2 className="educacion-title">Educación</h2>
+  
+      <EducationForm
+        formData={formData}
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
+        isEditing={isEditing}
+      />
+  <ul className="educacion-list">
+  {educationList.map((edu) => (
+    <li key={edu._id} className="educacion-item">
+      <h3 className="educacion-institucion">{edu.institution}</h3>
+      <p className="educacion-titulo">{edu.degree}</p>
+      <p className="educacion-fechas">
+        {edu.startDate} - {edu.endDate || "Actualidad"}
+      </p>
+      {edu.description && <p className="educacion-descripcion">{edu.description}</p>}
+      
+      <div className="educacion-buttons">
+        <button className="educacion-edit" onClick={() => handleEdit(edu)}>✏️ Editar</button>
+        <button className="educacion-delete" onClick={() => handleDelete(edu._id)}>🗑️ Eliminar</button>
+      </div>
+    </li>
+  ))}
+</ul>
+
     </div>
   );
-};
-
-const styles = {
-  container: {
-    padding: "20px",
-    textAlign: "center",
-  },
-  button: {
-    backgroundColor: "#ff9800",
-    color: "#fff",
-    padding: "10px 20px",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-    marginTop: "20px",
-  },
+  
 };
 
 export default Educacion;

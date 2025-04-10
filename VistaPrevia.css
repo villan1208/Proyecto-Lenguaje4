@@ -1,0 +1,109 @@
+/* Fondo general */
+body {
+    background: linear-gradient(to right, #1e2a78, #0b65d0);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .vista-previa-container {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: linear-gradient(to right, #2a2f80, #124a8d);
+    border-radius: 15px;
+    border: 2px solid #00e1ff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    color: #ffffff;
+  }
+  
+  /* Título */
+  .vista-previa-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    border-bottom: 3px solid #ff9800;
+    padding-bottom: 10px;
+  }
+  
+  /* Cada sección */
+  .vista-previa-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+  
+  /* Botón regresar */
+  .vista-previa-btn {
+    display: block;
+    margin: 3rem auto 0;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vista-previa-btn:hover {
+    background-color: #e67e00;
+  }
+  
+  /* Etiquetas dentro de secciones */
+  .vista-previa-section strong {
+    color: #ff9800;
+  }
+  
+  /* Estilo para líneas horizontales de datos tipo tarjeta */
+  .vista-previa-section p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
